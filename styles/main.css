@@ -1,12 +1,15 @@
 
-body {
+body{
     
     background-image: url(https://www.georgiaaquarium.org/wp-content/uploads/2019/07/digital-wallpapers-29.jpg)
 
 
 };
 
-h1{
 
-    color: aliceblue;
-}
+.fishes{
+
+    border: 2px, black
+    
+
+};

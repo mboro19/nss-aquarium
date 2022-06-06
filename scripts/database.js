@@ -16,46 +16,48 @@ export const getFish = () => {
 const database = {
     fish: [
         {
+            image: "",
             species: "Pirahna",
             name: "Bart",
             food: "crustaceans",
             length: 3,
-            locationHarvested: "Louisiana"
+            location: "Louisiana"
 
         },
         {
+            image: "",
             species:"Blenny",
             name:"Frank",
             food:"Algae",
             length: 4 ,
-            locationHarvested: "Key Largo"
+            location: "Key Largo"
 
         },
         {
-
+            image:"",
             species:"Clownfish",
             name:"Nemo",
             food:"small plants",
             length: 2 ,
-            locationHarvested: "Panama"
+            location: "Panama"
 
         },
         {
-
+            image: "",
             species:"Goby",
             name:"Goober",
             food:"Plants",
             length: 1 ,
-            locationHarvested: "Mexico"
+            location: "Mexico"
 
         },
         {
-
+            image:"",
             species:"Angelfish",
             name:"Darla",
             food:"Plants and Smaller fish",
             length: 4 ,
-            locationHarvested: "Cuba"
+            location: "Cuba"
 
         }
     ]

@@ -16,7 +16,7 @@ import { FishList } from './FishList.js'
     Use . for elements with a "class" attribute
     Use # for elements with an "id" attribute
  */
-const parentHTMLElement = document.querySelector("insert selector here")
+const parentHTMLElement = document.querySelector(".fishes")
 
 
 parentHTMLElement.innerHTML = FishList()
