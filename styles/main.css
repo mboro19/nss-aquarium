@@ -4,18 +4,23 @@ body{
     background-image: url(https://www.georgiaaquarium.org/wp-content/uploads/2019/07/digital-wallpapers-29.jpg);
 
     max-width: 100%;
-    max-height: auto;
-
+    max-height: auto
     
+}
 
-};
+
+
+.fish__image{
+
+    width: 200px;
+    height: auto 
+}
 
 
 .fish__card {
-
-    flex-wrap: wrap;
+    
     flex-direction: row;
-    justify-content: flex-end;
+
     
 }
 
@@ -23,4 +28,17 @@ div {
   
     color: aliceblue;
     
+}
+
+.fish__box{
+
+    display: flex;
+    justify-content: flex-end
+
+}
+
+.fishes{
+
+
+    flex-direction: column;
 }
