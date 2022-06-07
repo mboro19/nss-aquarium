@@ -8,37 +8,20 @@ body{
     
 }
 
-
-
 .fish__image{
 
+    display: flex;
     width: 200px;
-    height: auto 
-}
+    height: auto;
+    border: 3px dotted white;
 
-
-.fish__card {
-    
-    flex-direction: row;
-
-    
 }
 
 div {
   
-    color: aliceblue;
-    
-}
-
-.fish__box{
-
     display: flex;
-    justify-content: flex-end
-
-}
-
-.fishes{
-
-
-    flex-direction: column;
+    color: aliceblue;
+    justify-content: space-evenly;
+    justify-items: flex-end;
+    border: 3px dotted yellow;
 }
