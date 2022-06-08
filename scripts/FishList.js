@@ -18,7 +18,7 @@ export const FishList = () => {
             <div class="fish__species">${fish.species}</div>
             <div class="fish__length">${fish.length}</div>
             <div class="fish__diet">${fish.food}</div>
-            <div class="fish__location">${fish.location}</div>
+            <div class="fish__location">${fish.location}</div><p><p>
             
         </section>`
     }

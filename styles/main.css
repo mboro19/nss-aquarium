@@ -1,27 +1,78 @@
 
 body{
     
-    background-image: url(https://www.georgiaaquarium.org/wp-content/uploads/2019/07/digital-wallpapers-29.jpg);
-
+    background-image: url(https://www.georgiaaquarium.org/wp-content/uploads/2019/07/digital-wallpapers-29.jpg)  ;
+    background-repeat: no-repeat;
     max-width: 100%;
-    max-height: auto
+    max-height: auto;
+    display: flex;
+    padding: 20px;
+    background-position: left;
+    background-color: rgb(51, 51, 51);
+    background-size: 83%;
+    
+    
     
 }
 
-.fish__image{
+img{
 
     display: flex;
     width: 200px;
     height: auto;
     border: 3px dotted white;
-
+    opacity: 100%;
+    
 }
 
 div {
   
     display: flex;
     color: aliceblue;
-    justify-content: space-evenly;
-    justify-items: flex-end;
+    justify-content: flex-end;
     border: 3px dotted yellow;
+    max-width: 200px;
+    justify-content: flex-start;  
+    
+    
+}
+
+body{
+    display: flex;
+    border: 3px dotted purple;
+    max-height: 800px;
+}
+
+h1 {
+    display: flex;
+    align-self: flex-start;
+    color: aliceblue;
+    border: 3px dotted green;
+    width: 33.33%;
+    max-height: 200px;
+    align-items: center;
+    
+    
+}
+
+.one {
+
+    color: aliceblue;
+    padding: 10px;
+}
+.bottom__1{
+
+    display: flex;
+    height: 100px;
+    width: 100px;
+}
+
+.bottom__2{
+
+  
+    border: 3px dashed burlywood;
+    width: 100px;
+    height: 100px;
+    
+
 }
