@@ -47,7 +47,7 @@ const database = {
             species:"Species: Goby",
             name:"Name: Goober",
             food:"Eats: Invertebrates",
-            length: `Length: 1 inches` ,
+            length: `Length: 1 inch` ,
             location: "Harvested in Mexico"
 
         },

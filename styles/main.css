@@ -1,15 +1,14 @@
 
 body{
     
-    background-image: url(https://www.georgiaaquarium.org/wp-content/uploads/2019/07/digital-wallpapers-29.jpg)  ;
+    background-color: rgb(38, 83, 181);
+    
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/59a6349b-7a40-4af2-bf9a-3a13ddf42093/dcr8jlh-81417570-a5c4-45c6-b488-3e06ef15077d.png/v1/fill/w_1024,h_889,strp/tropical_seas_fish_on_transparent_background_by_zoostock_dcr8jlh-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU5YTYzNDliLTdhNDAtNGFmMi1iZjlhLTNhMTNkZGY0MjA5M1wvZGNyOGpsaC04MTQxNzU3MC1hNWM0LTQ1YzYtYjQ4OC0zZTA2ZWYxNTA3N2QucG5nIiwiaGVpZ2h0IjoiPD04ODkiLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS53YXRlcm1hcmsiXSwid21rIjp7InBhdGgiOiJcL3dtXC81OWE2MzQ5Yi03YTQwLTRhZjItYmY5YS0zYTEzZGRmNDIwOTNcL3pvb3N0b2NrLTQucG5nIiwib3BhY2l0eSI6OTUsInByb3BvcnRpb25zIjowLjQ1LCJncmF2aXR5IjoiY2VudGVyIn19.R8TUNjMm9mohdCPopi9noxeHg-YbNRO-MlYKT6lsr6Y);
     background-repeat: no-repeat;
-    max-width: 100%;
-    max-height: auto;
-    display: flex;
-    padding: 20px;
-    background-position: left;
-    background-color: rgb(51, 51, 51);
-    background-size: 83%;
+    background-position: bottom left;
+    background-size: 75%;
+    height: 1000px;
+    width: auto;
     
     
     
@@ -17,62 +16,99 @@ body{
 
 img{
 
-    display: flex;
+    
     width: 200px;
     height: auto;
-    border: 3px dotted white;
-    opacity: 100%;
+    display: flex;
     
 }
 
 div {
   
-    display: flex;
+    
     color: aliceblue;
-    justify-content: flex-end;
-    border: 3px dotted yellow;
-    max-width: 200px;
-    justify-content: flex-start;  
-    
-    
-}
-
-body{
     display: flex;
-    border: 3px dotted purple;
-    max-height: 800px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    max-height: 750px;
+    padding: 10px;
+    border: 3px solid black;
+    
+    
 }
 
 h1 {
-    display: flex;
-    align-self: flex-start;
+
     color: aliceblue;
-    border: 3px dotted green;
-    width: 33.33%;
-    max-height: 200px;
+
+}
+
+.fish__card{
+
+    
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    width: 220px;
+    
+    
+    
+    
+
+}
+
+.fishList{
+
+    
+    float: right;
+    background-color: rgba(111, 111, 111, 0.49);
+}
+
+.careTips{
+
+
+    
+    height: 220px;
+    width: auto;
+    display: flex;
+    background-color: rgba(39, 39, 39, 0.568);
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.quotes{
+
+    
+    height: 220px;
+    width: auto;
+    display: flex;
+    background-color: rgba(16, 16, 16, 0.565);
+    justify-content: center;
     align-items: center;
-    
-    
+    padding-left: 5%;
+
+
+
 }
 
-.one {
-
-    color: aliceblue;
-    padding: 10px;
-}
-.bottom__1{
+.locations {
 
     display: flex;
-    height: 100px;
-    width: 100px;
-}
-
-.bottom__2{
-
-  
-    border: 3px dashed burlywood;
-    width: 100px;
-    height: 100px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    padding: 10px;
     
+}
+.counter{
 
+    display: flex;
+    justify-self: baseline;
+    align-self: flex-start;
+    padding: 0px;
+    background-position: bottom left;
 }
